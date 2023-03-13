@@ -7,7 +7,6 @@ const Charity = require("../models/Charity.model");
 
 /*router.post("/charities", async (req, res) => {
   const { name, email, password, typeofCharity } = req.body;
-
   try {
     const charity = await Charity.create({ name, email, password, typeofCharity});
     res.json(charity);
